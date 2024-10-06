@@ -1,0 +1,58 @@
+.App {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: purple;
+    margin: 10px 0;
+}
+
+.student-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.student-form input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.student-form button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.student-form button:hover {
+    background-color: darkgreen;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
